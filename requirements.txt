@@ -1,0 +1,4 @@
+streamlit
+ailia
+opencv-python-headless
+numpy
