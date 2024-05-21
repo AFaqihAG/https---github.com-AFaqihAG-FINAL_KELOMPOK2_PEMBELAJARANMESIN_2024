@@ -1,5 +1,6 @@
 streamlit
 ailia
 opencv-python-headless
+opencv-python
 numpy
 requests
