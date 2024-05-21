@@ -5,7 +5,7 @@ import os
 from PIL import Image
 import tempfile
 
-st.title("Crowd Counting from Image or Video")
+st.title("Crowd Counting from Image")
 
 # File upload widget for image
 uploaded_image_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
