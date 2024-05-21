@@ -288,7 +288,7 @@ if uploaded_image_file:
         # Button to run the script
         if st.button("Run Crowd Counting on Image"):
             # Run the script with specified input and output paths
-            cmd = f"python3 crowdcount-cascaded-mtl.py --input {input_image_path} --savepath {output_image_path}"
+            cmd = f"python3 app.py --input {input_image_path} --savepath {output_image_path}"
             process = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, error = process.communicate()
 
