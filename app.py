@@ -21,6 +21,9 @@ import webcamera_utils  # noqa: E402
 from logging import getLogger   # noqa: E402
 logger = getLogger(__name__)
 
+# Set Ailia cache directory to a writable location
+os.environ['AILIA_CACHE_DIR'] = os.path.join(os.getcwd(), 'ailia_cache')
+os.makedirs(os.environ['AILIA_CACHE_DIR'], exist_ok=True)
 
 # ======================
 # PARAMETERS
