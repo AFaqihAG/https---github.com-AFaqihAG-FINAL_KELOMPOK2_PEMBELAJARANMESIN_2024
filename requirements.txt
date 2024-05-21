@@ -1,4 +1,6 @@
-streamlit
-ailia
-opencv-python-headless
 numpy
+opencv-python-headless
+streamlit
+Pillow
+requests
+ailia
